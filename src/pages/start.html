@@ -6,10 +6,12 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="styles/main.css">
-    </head>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+      </head>
     <body>
-        <div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+      <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+        <div className="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
             <div class="govuk-accordion__section ">
               <div class="govuk-accordion__section-header">
                 <h2 class="govuk-accordion__section-heading">
@@ -60,6 +62,9 @@
             </div>
           </div>
         
+        <script src="./govuk.js"></script>
+        <script>window.GOVUKFrontend.initAll()</script>
+
         <script src="" async defer></script>
     </body>
 </html>

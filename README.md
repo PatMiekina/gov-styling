@@ -4,10 +4,12 @@ https://frontend.design-system.service.gov.uk/get-started/#get-started
 `mkdir <folder_name>
 
 2. initialize package.json & add necessary packages
-`npm init -yes `
-`npm i express sass` 
-`npm i nodemon --save-dev`
-`npm install govuk-frontend --save`
+```
+npm init -yes
+npm i express sass 
+npm i nodemon --save-dev
+npm install govuk-frontend --save
+```
 
 3. edit the scripts to enable population of styling sheets
 
@@ -29,11 +31,13 @@ add within .gitignore. :
 node_modules 
 
 5. Add some folders
-`mkdir public`
-`mkdir public/styles`
-`mkdir src` 
-`mkdir src/pages`
-`mkdir src/scss` 
+```
+mkdir public
+mkdir public/styles
+mkdir src
+mkdir src/pages
+mkdir src/scss
+```
 
 The folder structure should look like this:
 
@@ -41,10 +45,11 @@ The folder structure should look like this:
 .
 ├── package.json
 ├── public
+    ├── govuk.js
+    ├── assets
 │   └── styles
 └── src
     ├── index.js
-    ├── govuk.js
     ├── pages
     │   └── index.html
     └── scss
@@ -112,7 +117,8 @@ The folder structure should look like this:
 <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
 # and to the end (make sure to add the right path!)
-<script src="src/govuk.js"></script>
+<script src="./govuk.js"></script>
 <script>window.GOVUKFrontend.initAll()</script>
 
-# copy contents of node_modules/govuk/all.js to src/govuk.js
+# copy contents of node_modules/govuk/all.js to public/govuk.js
+# it has to be in public folder for html to access
