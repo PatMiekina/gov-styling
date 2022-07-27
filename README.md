@@ -1,4 +1,5 @@
 https://frontend.design-system.service.gov.uk/get-started/#get-started 
+https://dev.to/elvelive/setting-up-sass-in-an-express-app-jk4
 
 1. make new project directory
 `mkdir <folder_name>
@@ -45,8 +46,7 @@ The folder structure should look like this:
 .
 ├── package.json
 ├── public
-    ├── govuk.js
-    ├── assets
+|   ├── assets
 │   └── styles
 └── src
     ├── index.js
@@ -122,3 +122,23 @@ The folder structure should look like this:
 
 # copy contents of node_modules/govuk/all.js to public/govuk.js
 # it has to be in public folder for html to access
+
+The final folder structure should look like this:
+
+```
+.
+├── package.json
+├── public
+|   ├── govuk.js
+|   ├── assets
+|   |   ├── images
+|   |   └── fonts
+│   └── styles
+└── src
+    ├── index.js
+    ├── pages
+    │   └── index.html
+    └── scss
+        └── main.scss
+
+```
