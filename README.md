@@ -1,3 +1,10 @@
+# Government Frontend Setup Tutorial
+
+This is a step by step tutorial to add CircleCI to your project. It is followed by [cypress tutorial](https://github.com/PatMiekina/cypress-tutorial) and [CircleCI tutorial](https://github.com/PatMiekina/circleCI-tutorial).
+
+
+Big shoutout to marvelous [Donny](https://github.com/donnyhyon) & fabulous [Gabby](https://github.com/gab-bernotaite) for working on a tutorial with me, thanks guys! ❤️
+
 https://frontend.design-system.service.gov.uk/get-started/#get-started 
 https://dev.to/elvelive/setting-up-sass-in-an-express-app-jk4
 
