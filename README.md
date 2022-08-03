@@ -8,8 +8,6 @@ Big shoutout to marvelous [Donny](https://github.com/donnyhyon) & fabulous [Gabb
 https://frontend.design-system.service.gov.uk/get-started/#get-started 
 https://dev.to/elvelive/setting-up-sass-in-an-express-app-jk4
 
-To start the tutorial clone this github repo.
-
 1. make new project directory
 `mkdir <folder_name>
 
